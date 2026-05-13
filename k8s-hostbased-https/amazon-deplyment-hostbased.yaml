@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
         - name: amazon-app-container
-          image: aakashdevops/netflix:latest  # Use your actual Docker image name and tag
+          image: aakashdevops/amazon:latest  # Use your actual Docker image name and tag
           ports:
             - containerPort: 80  # The port your game app is listening on
           resources:
